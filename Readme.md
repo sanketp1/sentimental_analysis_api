@@ -1,5 +1,13 @@
 # Sentimentenal Analysis API :relaxed:
 
+## Demo
+
+![Demo](asset/demo.gif)
+
+
+## Test Live
+![Link](https://api-sentimental-analysis-service.onrender.com/)
+
 
 ## Setup:
 
@@ -55,6 +63,3 @@ pip install -r app/requirements.txt
 uvicorn main:app --reload
 ```
 
-## Demo
-
-![Demo](app/asset/demo.gif)
