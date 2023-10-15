@@ -1,6 +1,8 @@
 from fastapi import APIRouter
-from api_v1.endpoints import health
-from api.api_v1.endpoints import sentiment_analysis
+# from endpoints import health
+
+from .endpoints import health
+from .endpoints import sentiment_analysis
 api_router = APIRouter()
 
 api_router.include_router(health.router, tags=["Health"])

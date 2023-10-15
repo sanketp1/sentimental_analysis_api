@@ -1,4 +1,5 @@
-from sentiment import SentimentResult
+from .sentiment import SentimentResult
+
 from typing import Optional
 from pydantic import BaseModel
 
