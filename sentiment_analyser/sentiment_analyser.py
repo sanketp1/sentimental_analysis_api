@@ -1,6 +1,6 @@
-from app.helpers.clean_text import clean_text
-from app.schemas.sentiment import SentimentResult
-from app.schemas.error import ServiceError
+from helpers.clean_text import clean_text
+from schemas.sentiment import SentimentResult
+from schemas.error import ServiceError
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 analyzer = SentimentIntensityAnalyzer()

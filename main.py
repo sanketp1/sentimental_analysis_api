@@ -4,8 +4,8 @@ from fastapi import FastAPI, APIRouter, Request
 from fastapi.responses import HTMLResponse
 from starlette.middleware.cors import CORSMiddleware
 from fastapi.openapi.utils import get_openapi
-from app.api.api_v1.api import api_router
-from app.config import settings
+from api.api_v1.api import api_router
+from config import settings
 from loguru import logger
 import uvicorn
 

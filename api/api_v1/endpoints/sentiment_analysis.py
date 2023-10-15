@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Response
-from app.schemas.error import ServiceError
-from app.schemas.response import SentimentResponse
-from app.schemas.input_data import ExampleText
-from app.sentiment_analyser.sentiment_analyser import vader_analysis
+from schemas.error import ServiceError
+from schemas.response import SentimentResponse
+from schemas.input_data import ExampleText
+from sentiment_analyser.sentiment_analyser import vader_analysis
 from loguru import logger
 
 router = APIRouter()
